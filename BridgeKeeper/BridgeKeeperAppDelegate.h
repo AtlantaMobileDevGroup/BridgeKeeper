@@ -1,9 +1,9 @@
 //
-//  BridgeKeeperAppDelegate.h
-//  BridgeKeeper
+// THIS TUTORIAL IS PART OF THE BOOK "iOS Programming - The Big Nerd Ranch
+// guide" by Joe Conway.
 //
-//  Created by Jeremy Fox on 10/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+// Get more info on this booke and purchase it here:
+// http://www.bignerdranch.com/book/ios_programming_the_big_nerd_ranch_guide_nd_edition_
 //
 
 #import <UIKit/UIKit.h>
