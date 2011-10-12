@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE6B22D1445048E005DC556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6B22C1445048E005DC556 /* UIKit.framework */; };
+		3FE6B22F1445048E005DC556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6B22E1445048E005DC556 /* Foundation.framework */; };
+		3FE6B2311445048E005DC556 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE6B2301445048E005DC556 /* CoreGraphics.framework */; };
+		3FE6B2371445048E005DC556 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6B2351445048E005DC556 /* InfoPlist.strings */; };
+		3FE6B2391445048E005DC556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B2381445048E005DC556 /* main.m */; };
+		3FE6B23D1445048E005DC556 /* BridgeKeeperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B23C1445048E005DC556 /* BridgeKeeperAppDelegate.m */; };
+		3FE6B2401445048E005DC556 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE6B23E1445048E005DC556 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FE6B2281445048E005DC556 /* BridgeKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FE6B22C1445048E005DC556 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FE6B22E1445048E005DC556 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FE6B2301445048E005DC556 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3FE6B2341445048E005DC556 /* BridgeKeeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BridgeKeeper-Info.plist"; sourceTree = "<group>"; };
+		3FE6B2361445048E005DC556 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3FE6B2381445048E005DC556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FE6B23A1445048E005DC556 /* BridgeKeeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgeKeeper-Prefix.pch"; sourceTree = "<group>"; };
+		3FE6B23B1445048E005DC556 /* BridgeKeeperAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeKeeperAppDelegate.h; sourceTree = "<group>"; };
+		3FE6B23C1445048E005DC556 /* BridgeKeeperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeKeeperAppDelegate.m; sourceTree = "<group>"; };
+		3FE6B23F1445048E005DC556 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE6B2251445048E005DC556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6B22D1445048E005DC556 /* UIKit.framework in Frameworks */,
+				3FE6B22F1445048E005DC556 /* Foundation.framework in Frameworks */,
+				3FE6B2311445048E005DC556 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE6B21D1445048E005DC556 = {
+			isa = PBXGroup;
+			children = (
+				3FE6B2321445048E005DC556 /* BridgeKeeper */,
+				3FE6B22B1445048E005DC556 /* Frameworks */,
+				3FE6B2291445048E005DC556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FE6B2291445048E005DC556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6B2281445048E005DC556 /* BridgeKeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE6B22B1445048E005DC556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6B22C1445048E005DC556 /* UIKit.framework */,
+				3FE6B22E1445048E005DC556 /* Foundation.framework */,
+				3FE6B2301445048E005DC556 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FE6B2321445048E005DC556 /* BridgeKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6B23B1445048E005DC556 /* BridgeKeeperAppDelegate.h */,
+				3FE6B23C1445048E005DC556 /* BridgeKeeperAppDelegate.m */,
+				3FE6B23E1445048E005DC556 /* MainWindow.xib */,
+				3FE6B2331445048E005DC556 /* Supporting Files */,
+			);
+			path = BridgeKeeper;
+			sourceTree = "<group>";
+		};
+		3FE6B2331445048E005DC556 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE6B2341445048E005DC556 /* BridgeKeeper-Info.plist */,
+				3FE6B2351445048E005DC556 /* InfoPlist.strings */,
+				3FE6B2381445048E005DC556 /* main.m */,
+				3FE6B23A1445048E005DC556 /* BridgeKeeper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FE6B2271445048E005DC556 /* BridgeKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FE6B2431445048E005DC556 /* Build configuration list for PBXNativeTarget "BridgeKeeper" */;
+			buildPhases = (
+				3FE6B2241445048E005DC556 /* Sources */,
+				3FE6B2251445048E005DC556 /* Frameworks */,
+				3FE6B2261445048E005DC556 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgeKeeper;
+			productName = BridgeKeeper;
+			productReference = 3FE6B2281445048E005DC556 /* BridgeKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FE6B21F1445048E005DC556 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3FE6B2221445048E005DC556 /* Build configuration list for PBXProject "BridgeKeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FE6B21D1445048E005DC556;
+			productRefGroup = 3FE6B2291445048E005DC556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FE6B2271445048E005DC556 /* BridgeKeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FE6B2261445048E005DC556 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6B2371445048E005DC556 /* InfoPlist.strings in Resources */,
+				3FE6B2401445048E005DC556 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FE6B2241445048E005DC556 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE6B2391445048E005DC556 /* main.m in Sources */,
+				3FE6B23D1445048E005DC556 /* BridgeKeeperAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FE6B2351445048E005DC556 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE6B2361445048E005DC556 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3FE6B23E1445048E005DC556 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FE6B23F1445048E005DC556 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FE6B2411445048E005DC556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FE6B2421445048E005DC556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE6B2441445048E005DC556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgeKeeper/BridgeKeeper-Prefix.pch";
+				INFOPLIST_FILE = "BridgeKeeper/BridgeKeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3FE6B2451445048E005DC556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BridgeKeeper/BridgeKeeper-Prefix.pch";
+				INFOPLIST_FILE = "BridgeKeeper/BridgeKeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FE6B2221445048E005DC556 /* Build configuration list for PBXProject "BridgeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6B2411445048E005DC556 /* Debug */,
+				3FE6B2421445048E005DC556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FE6B2431445048E005DC556 /* Build configuration list for PBXNativeTarget "BridgeKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FE6B2441445048E005DC556 /* Debug */,
+				3FE6B2451445048E005DC556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FE6B21F1445048E005DC556 /* Project object */;
+}
